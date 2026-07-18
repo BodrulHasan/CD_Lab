@@ -1,0 +1,11 @@
+//structure of a flex program
+
+%{
+ c declarations
+%}
+
+%%
+    rules
+%%
+
+user functions

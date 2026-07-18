@@ -1,0 +1,8 @@
+1. 'r?' 0 or 1 instance
+2. (pattern) matches the string exactly
+3. anchors -> 
+     '^' denotes start. '$' denotes end
+   
+    ^r -> starts with r
+    r$ -> end with r
+

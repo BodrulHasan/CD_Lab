@@ -1,0 +1,12 @@
+Write a lex program to count the numbers, lowercase letter, 
+uppercase letter, and total words in the input.
+
+#include<stdio.h>
+int letters = 100;
+int digits = 0;
+
+output:
+numbers: 2
+lowercase letter: 32
+uppercase letter: 0
+word: 9
