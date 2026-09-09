@@ -1,5 +1,5 @@
 %{
-
+#include <stdio.h>
 int i;
 %}
 
@@ -10,8 +10,7 @@ int i;
 
     for(i = 0; yytext[i] != '\0'; i++)
     {
-        if(yytext[i] == '0')
-            zero++;
+        if(yytext[i] == '0')zero++;
         else
             one++;
     }
