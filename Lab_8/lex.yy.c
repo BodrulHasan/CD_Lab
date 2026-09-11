@@ -623,7 +623,7 @@ case 1:
 YY_RULE_SETUP
 #line 7 "unimail.l"
 {
-    printf("Valid\n");
+    printf("\nValid\n");
 }
 	YY_BREAK
 case 2:
@@ -635,7 +635,7 @@ case 3:
 YY_RULE_SETUP
 #line 13 "unimail.l"
 {
-    printf("Invalid\n");
+    printf("Invalid");
 }
 	YY_BREAK
 case 4:

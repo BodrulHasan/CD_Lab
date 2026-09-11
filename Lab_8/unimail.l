@@ -5,13 +5,13 @@
 %%
 
 ([0-9]{9}+(@)[a-z]+(.edu.bd)) {
-    printf("Valid\n");
+    printf("\nValid\n");
 }
 
 \n {}
 
 . {
-    printf("Invalid\n");
+    printf("Invalid");
 }
 
 %%
